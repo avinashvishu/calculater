@@ -7,6 +7,7 @@ for (item of buttons) {
         console.log('Button text is ', buttonText);
         if (buttonText == 'X') {
             buttonText = '*';
+            console.log(buttonText);
             screenValue += buttonText;
             screen.value = screenValue;
         } else if (buttonText == 'C') {
